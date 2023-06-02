@@ -1,0 +1,51 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Schema.vf
+// /___/   /\     Timestamp : 04/08/2023 15:51:58
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3a -verilog D:/Study/X.Pro/Lab2/Lab2/Schema.vf -w D:/Study/X.Pro/Lab2/Lab2/Schema.sch
+//Design Name: Schema
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Schema(Clock, 
+              MODE, 
+              RESET, 
+              OUTB);
+
+    input Clock;
+    input MODE;
+    input RESET;
+   output [7:0] OUTB;
+   
+   wire [2:0] CUR_S_BUS;
+   wire [2:0] NS_BUS;
+   
+   FD #( .INIT(1'b0) ) XLXI_7 (.C(Clock), 
+              .D(NS_BUS[2]), 
+              .Q(CUR_S_BUS[2]));
+   FD #( .INIT(1'b0) ) XLXI_8 (.C(Clock), 
+              .D(NS_BUS[0]), 
+              .Q(CUR_S_BUS[0]));
+   FD #( .INIT(1'b0) ) XLXI_9 (.C(Clock), 
+              .D(NS_BUS[1]), 
+              .Q(CUR_S_BUS[1]));
+   transition_logic_intf  XLXI_10 (.CUR_STATE(CUR_S_BUS[2:0]), 
+                                  .MODE(MODE), 
+                                  .RESET(RESET), 
+                                  .NEXT_STATE(NS_BUS[2:0]));
+   out_logic_intf  XLXI_11 (.IN_BUS(CUR_S_BUS[2:0]), 
+                           .OUT_BUS(OUTB[7:0]));
+endmodule

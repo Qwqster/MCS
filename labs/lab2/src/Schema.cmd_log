@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan3a -refsym Schema D:/Study/X.Pro/Lab2/Lab2/Schema.sch D:/Study/X.Pro/Lab2/Lab2/Schema.sym 
+sch2hdl -intstyle ise -family spartan3a -verilog Schema_drc.vf -w D:/Study/X.Pro/Lab2/Lab2/Schema.sch 
+sch2sym -intstyle ise -family spartan3a -refsym Schema D:/Study/X.Pro/Lab2/Lab2/Schema.sch D:/Study/X.Pro/Lab2/Lab2/Schema.sym 
+sch2sym -intstyle ise -family spartan3a -refsym Schema D:/Study/X.Pro/Lab2/Lab2/Schema.sch D:/Study/X.Pro/Lab2/Lab2/Schema.sym 
+sch2hdl -intstyle ise -family spartan3a -verilog Schema_drc.vf -w D:/Study/X.Pro/Lab2/Lab2/Schema.sch 

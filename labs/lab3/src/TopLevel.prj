@@ -1,0 +1,7 @@
+vhdl work "SEGDEC.vhd"
+vhdl work "RAM.vhd"
+vhdl work "MUX.vhd"
+vhdl work "CU.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ACC.vhd"
+vhdl work "TopLevel.vhf"

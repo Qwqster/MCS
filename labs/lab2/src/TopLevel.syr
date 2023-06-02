@@ -1,0 +1,441 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: TopLevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TopLevel.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TopLevel"
+Output Format                      : NGC
+Target Device                      : xc3s50a-5-tq144
+
+---- Source Options
+Top Module Name                    : TopLevel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Study/X.Pro/Lab2/Lab2/TransitionLogic.vhd" in Library work.
+Architecture transition_logic_arch of Entity transition_logic_intf is up to date.
+Compiling vhdl file "D:/Study/X.Pro/Lab2/Lab2/OutputLogic.vhd" in Library work.
+Architecture out_logic_arch of Entity out_logic_intf is up to date.
+Compiling vhdl file "D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf" in Library work.
+Entity <cc16re_hxilinx_toplevel> compiled.
+Entity <cc16re_hxilinx_toplevel> (Architecture <cc16re_hxilinx_toplevel_v>) compiled.
+Entity <schema_muser_toplevel> compiled.
+Entity <schema_muser_toplevel> (Architecture <behavioral>) compiled.
+Entity <toplevel> compiled.
+Entity <toplevel> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Study/X.Pro/Lab2/Lab2/Schema.vhf" in Library work.
+Architecture behavioral of Entity schema is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <TopLevel> in library <work>.
+
+Analyzing hierarchy for module <Schema_MUSER_TopLevel> in library <work>.
+
+Analyzing hierarchy for entity <transition_logic_intf> in library <work> (architecture <transition_logic_arch>).
+
+Analyzing hierarchy for entity <out_logic_intf> in library <work> (architecture <out_logic_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TopLevel>.
+Module <TopLevel> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  0" for instance <XLXI_1> in unit <TopLevel>.
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <TopLevel>.
+Analyzing module <Schema_MUSER_TopLevel> in library <work>.
+Module <Schema_MUSER_TopLevel> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  0" for instance <XLXI_7> in unit <Schema_MUSER_TopLevel>.
+    Set user-defined property "INIT =  0" for instance <XLXI_8> in unit <Schema_MUSER_TopLevel>.
+    Set user-defined property "INIT =  0" for instance <XLXI_9> in unit <Schema_MUSER_TopLevel>.
+Analyzing Entity <transition_logic_intf> in library <work> (Architecture <transition_logic_arch>).
+Entity <transition_logic_intf> analyzed. Unit <transition_logic_intf> generated.
+
+Analyzing Entity <out_logic_intf> in library <work> (Architecture <out_logic_arch>).
+Entity <out_logic_intf> analyzed. Unit <out_logic_intf> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <transition_logic_intf>.
+    Related source file is "D:/Study/X.Pro/Lab2/Lab2/TransitionLogic.vhd".
+Unit <transition_logic_intf> synthesized.
+
+
+Synthesizing Unit <out_logic_intf>.
+    Related source file is "D:/Study/X.Pro/Lab2/Lab2/OutputLogic.vhd".
+Unit <out_logic_intf> synthesized.
+
+
+Synthesizing Unit <Schema_MUSER_TopLevel>.
+    Related source file is "TopLevel.vf".
+Unit <Schema_MUSER_TopLevel> synthesized.
+
+
+Synthesizing Unit <TopLevel>.
+    Related source file is "TopLevel.vf".
+Unit <TopLevel> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TopLevel> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TopLevel, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TopLevel.ngr
+Top Level Output File Name         : TopLevel
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 14
+#      INV                         : 1
+#      LUT1                        : 1
+#      LUT2                        : 3
+#      LUT3                        : 5
+#      LUT3_L                      : 1
+#      LUT4                        : 1
+#      MUXCY                       : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 5
+#      FD                          : 5
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 12
+#      IBUF                        : 4
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-5 
+
+ Number of Slices:                        6  out of    704     0%  
+ Number of Slice Flip Flops:              4  out of   1408     0%  
+ Number of 4 input LUTs:                 12  out of   1408     0%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    108    11%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLOCK                              | IBUF+BUFG              | 2     |
+XLXN_16(XLXI_4:O)                  | NONE(*)(XLXI_8/XLXI_9) | 3     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.606ns (Maximum Frequency: 383.759MHz)
+   Minimum input arrival time before clock: 2.754ns
+   Maximum output required time after clock: 6.560ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 1.991ns (frequency: 502.273MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.991ns (Levels of Logic = 1)
+  Source:            XLXI_1 (FF)
+  Destination:       XLXI_1 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: XLXI_1 to XLXI_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.495   0.357  XLXI_1 (XLXN_2)
+     INV:I->O              2   0.562   0.380  XLXI_5 (XLXN_31)
+     FD:D                      0.197          XLXI_1
+    ----------------------------------------
+    Total                      1.991ns (1.254ns logic, 0.737ns route)
+                                       (63.0% logic, 37.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_16'
+  Clock period: 2.606ns (frequency: 383.759MHz)
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Delay:               2.606ns (Levels of Logic = 2)
+  Source:            XLXI_8/XLXI_8 (FF)
+  Destination:       XLXI_8/XLXI_7 (FF)
+  Source Clock:      XLXN_16 rising
+  Destination Clock: XLXN_16 rising
+
+  Data Path: XLXI_8/XLXI_8 to XLXI_8/XLXI_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.495   0.668  XLXI_8/XLXI_8 (XLXI_8/CUR_S_BUS<0>)
+     LUT3_L:I1->LO         1   0.562   0.123  XLXI_8/XLXI_10/NEXT_STATE_2_or0000_SW0 (N8)
+     LUT3:I2->O            1   0.561   0.000  XLXI_8/XLXI_10/NEXT_STATE_2_or0000 (XLXI_8/NS_BUS<2>)
+     FD:D                      0.197          XLXI_8/XLXI_7
+    ----------------------------------------
+    Total                      2.606ns (1.815ns logic, 0.791ns route)
+                                       (69.7% logic, 30.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.378ns (Levels of Logic = 1)
+  Source:            RESET (PAD)
+  Destination:       XLXI_2 (FF)
+  Destination Clock: CLOCK rising
+
+  Data Path: RESET to XLXI_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.824   0.357  RESET_IBUF (RESET_IBUF)
+     FD:D                      0.197          XLXI_2
+    ----------------------------------------
+    Total                      1.378ns (1.021ns logic, 0.357ns route)
+                                       (74.1% logic, 25.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXN_16'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.754ns (Levels of Logic = 3)
+  Source:            MODE (PAD)
+  Destination:       XLXI_8/XLXI_7 (FF)
+  Destination Clock: XLXN_16 rising
+
+  Data Path: MODE to XLXI_8/XLXI_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.824   0.488  MODE_IBUF (MODE_IBUF)
+     LUT3_L:I0->LO         1   0.561   0.123  XLXI_8/XLXI_10/NEXT_STATE_2_or0000_SW0 (N8)
+     LUT3:I2->O            1   0.561   0.000  XLXI_8/XLXI_10/NEXT_STATE_2_or0000 (XLXI_8/NS_BUS<2>)
+     FD:D                      0.197          XLXI_8/XLXI_7
+    ----------------------------------------
+    Total                      2.754ns (2.143ns logic, 0.611ns route)
+                                       (77.8% logic, 22.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_16'
+  Total number of paths / destination ports: 17 / 7
+-------------------------------------------------------------------------
+Offset:              6.560ns (Levels of Logic = 2)
+  Source:            XLXI_8/XLXI_7 (FF)
+  Destination:       OUT_BUS<6> (PAD)
+  Source Clock:      XLXN_16 rising
+
+  Data Path: XLXI_8/XLXI_7 to OUT_BUS<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               8   0.495   0.751  XLXI_8/XLXI_7 (OUT_BUS_4_OBUF)
+     LUT2:I0->O            1   0.561   0.357  XLXI_8/XLXI_11/OUT_BUS_6_or00001 (OUT_BUS_6_OBUF)
+     OBUF:I->O                 4.396          OUT_BUS_6_OBUF (OUT_BUS<6>)
+    ----------------------------------------
+    Total                      6.560ns (5.452ns logic, 1.108ns route)
+                                       (83.1% logic, 16.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.20 secs
+ 
+--> 
+
+Total memory usage is 4510504 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

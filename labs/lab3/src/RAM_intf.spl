@@ -1,0 +1,8 @@
+[Inputs]
+RAM_WR
+CLOCK
+=RAM_ADDR_BUS[1:0]=
+=ACC_DATA_IN_BUS[7:0]=
+[Outputs]
+=RAM_DATA_OUT_BUS[7:0]=
+[BiDir]

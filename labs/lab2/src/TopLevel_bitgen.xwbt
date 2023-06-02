@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Study\X.Pro\Lab2\Lab2\TopLevel.ncd
+OUTFILE=D:\Study\X.Pro\Lab2\Lab2\TopLevel.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=D:\Study\X.Pro\Lab2\Lab2
+LICENSE=WebPack
+USER_INFO=211628586_0_0_017

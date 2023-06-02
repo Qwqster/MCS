@@ -1,0 +1,20 @@
+AR segdec_intf segdec_arch "E:/MKS/Lab_3_Example 6/SEGDEC.vhd" sub00/vhpl11 1685434812
+AR inv8_hxilinx_toplevel inv8_hxilinx_toplevel_v E:/MKS/Lab_3_Example/TopLevel.vhf sub00/vhpl03 1682608427
+AR cu_intf cu_arch "E:/MKS/Lab_3_Example 6/CU.vhd" sub00/vhpl09 1685434822
+EN segdec_intf NULL "E:/MKS/Lab_3_Example 6/SEGDEC.vhd" sub00/vhpl10 1685434811
+AR alu_intf alu_arch "E:/MKS/Lab_3_Example 6/ALU.vhd" sub00/vhpl15 1685434820
+EN acc_intf NULL "E:/MKS/Lab_3_Example 6/ACC.vhd" sub00/vhpl16 1685434815
+AR cb16ce_hxilinx_toplevel behavioral "E:/MKS/Lab_3_Example 6/TopLevel.vhf" sub00/vhpl05 1685434824
+EN calc_intf NULL E:/MKS/Lab_3_Example/calc.vhd sub00/vhpl00 1682502977
+EN cb16ce_hxilinx_toplevel NULL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" sub00/vhpl04 1685434823
+EN alu_intf NULL "E:/MKS/Lab_3_Example 6/ALU.vhd" sub00/vhpl14 1685434819
+EN inv8_hxilinx_toplevel NULL E:/MKS/Lab_3_Example/TopLevel.vhf sub00/vhpl02 1682608426
+EN toplevel NULL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" sub00/vhpl06 1685434825
+AR calc_intf calc_arch E:/MKS/Lab_3_Example/calc.vhd sub00/vhpl01 1682502978
+AR ram_intf ram_arch "E:/MKS/Lab_3_Example 6/RAM.vhd" sub00/vhpl19 1685434818
+AR toplevel behavioral "E:/MKS/Lab_3_Example 6/TopLevel.vhf" sub00/vhpl07 1685434826
+EN ram_intf NULL "E:/MKS/Lab_3_Example 6/RAM.vhd" sub00/vhpl18 1685434817
+EN cu_intf NULL "E:/MKS/Lab_3_Example 6/CU.vhd" sub00/vhpl08 1685434821
+AR acc_intf acc_arch "E:/MKS/Lab_3_Example 6/ACC.vhd" sub00/vhpl17 1685434816
+AR mux_intf mux_arch "E:/MKS/Lab_3_Example 6/MUX.vhd" sub00/vhpl13 1685434814
+EN mux_intf NULL "E:/MKS/Lab_3_Example 6/MUX.vhd" sub00/vhpl12 1685434813

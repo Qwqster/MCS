@@ -1,0 +1,8 @@
+[Inputs]
+=IN_SEL_OUT_BUS[7:0]=
+=ACC_DATA_OUT_BUS[7:0]=
+=OP_CODE_BUS[1:0]=
+[Outputs]
+OVER_FLOW
+=ACC_DATA_IN_BUS[7:0]=
+[BiDir]

@@ -1,0 +1,203 @@
+
+<smartXplorerReport>
+    <command>"D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\smartxplorer.exe" -p xc3s50a-tq144-5 -b -wd smartxplorer_results TopLevel.ngd -to "-v 3 -s 5 -n 3 -fastpaths -xml TopLevel.twx -ucf Constraints.ucf" -host_list hostlistfile.txt -max_runs 7
+    </command>
+    <programStatus>Done
+    </programStatus>
+    <programPID>24884
+    </programPID>
+    
+    <strategy name="MapTimingExtraEffort">
+        <strategyData>map  -timing -ol high -xe n ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptimingextraeffort.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run1
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>0
+        </timingScore>
+        <WorstCaseSlack>79.910ns
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="MapPhysSynthesis">
+        <strategyData>map  -timing -ol high -xe n -register_duplication on -logic_opt on ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapphyssynthesis.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run2
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <WorstCaseSlack>None
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="ParHighEffort1">
+        <strategyData>map  -cm area ; par  -ol high 
+        </strategyData>
+        <xdsFile>parhigheffort1.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run3
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>0
+        </timingScore>
+        <WorstCaseSlack>79.911ns
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="ParHighEffort2">
+        <strategyData>map  -cm area -t 2; par  -ol high -t 2
+        </strategyData>
+        <xdsFile>parhigheffort2.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run4
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>0
+        </timingScore>
+        <WorstCaseSlack>79.911ns
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="MapTiming1">
+        <strategyData>map  -timing -ol high ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptiming1.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run5
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>0
+        </timingScore>
+        <WorstCaseSlack>79.910ns
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="MapTiming2">
+        <strategyData>map  -timing -ol high -t 9; par  -ol high -t 9
+        </strategyData>
+        <xdsFile>maptiming2.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run6
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>0
+        </timingScore>
+        <WorstCaseSlack>79.910ns
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="MapUseIOReg">
+        <strategyData>map  -timing -ol high -pr b ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapuseioreg.xds
+        </xdsFile>
+        <host name="DESKTOP-3GMR6OF">
+            <hostData>Windows_NT, Intel64 Family 6 Model 158 Stepping 10, GenuineIntel, 8-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run7
+        </runIndex>
+        <status>Aborted
+        </status>
+        <logFile>TopLevel_sx.log
+        </logFile>
+        <timingScore>0
+        </timingScore>
+        <WorstCaseSlack>79.910ns
+        </WorstCaseSlack>
+        <Luts>194 (13%)
+	</Luts>
+	<SliceRegisters>51 (3%)
+	</SliceRegisters>
+	<runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <bestStrategy>None
+    </bestStrategy>
+    <envVariables>
+        <env name="XILINX_PLANAHEAD"  value="D:\Xilinx\14.7\ISE_DS\PlanAhead"/>
+        <env name="XILINX_DSP"  value="D:\Xilinx\14.7\ISE_DS\ISE"/>
+        <env name="XILINX_EDK"  value="D:\Xilinx\14.7\ISE_DS\EDK"/>
+        <env name="PATH"  value="D:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64;D:\Xilinx\14.7\ISE_DS\ISE\lib\nt64;D:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\Xilinx\14.7\ISE_DS\EDK\bin\nt64;D:\Xilinx\14.7\ISE_DS\EDK\lib\nt64;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;D:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;D:\Xilinx\14.7\ISE_DS\common\bin\nt64;D:\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\7-Zip;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps"/>
+        <env name="XILINXD_LICENSE_FILE"  value="D:\Xilinx_ISE_DS_Win_14.7_1015_1\Xilinx.lic"/>
+        <env name="XILINX"  value="D:\Xilinx\14.7\ISE_DS\ISE\"/>
+        
+    </envVariables>
+</smartXplorerReport>

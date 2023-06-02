@@ -1,0 +1,8 @@
+[Inputs]
+=DATA_IN[7:0]=
+=CONSTANT_BUS[7:0]=
+=RAM_DATA_OUT_BUS[7:0]=
+=IN_SEL[1:0]=
+[Outputs]
+=IN_SEL_OUT_BUS[7:0]=
+[BiDir]

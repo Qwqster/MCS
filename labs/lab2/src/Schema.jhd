@@ -1,0 +1,5 @@
+MODULE Schema
+	SUBMODULE transition_logic_intf
+		INSTANCE XLXI_10
+	SUBMODULE out_logic_intf
+		INSTANCE XLXI_11

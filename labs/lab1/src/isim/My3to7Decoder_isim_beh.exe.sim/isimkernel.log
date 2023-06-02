@@ -1,0 +1,10 @@
+Command line:
+   My3to7Decoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49902
+
+Mon Mar 27 20:55:57 2023
+
+
+ Elaboration Time: 0.109375 sec

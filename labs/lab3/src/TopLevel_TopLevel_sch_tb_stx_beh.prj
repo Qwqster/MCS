@@ -1,0 +1,8 @@
+vhdl isim_temp "SEGDEC.vhd"
+vhdl isim_temp "RAM.vhd"
+vhdl isim_temp "MUX.vhd"
+vhdl isim_temp "CU.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "ACC.vhd"
+vhdl isim_temp "TopLevel.vhf"
+vhdl isim_temp "TestTopLevel.vhd"

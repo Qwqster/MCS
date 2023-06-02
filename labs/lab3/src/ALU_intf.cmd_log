@@ -1,0 +1,15 @@
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl E:/MKS/Lab_3_Example/ALU_intf.sym 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl E:/MKS/Lab_3_Example/ALU_intf.sym 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl D:/Lab_3_Example/ALU_intf.sym 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl D:/Lab_3_Example/ALU_intf.sym 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/programs/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl D:/Lab_3_Example/ALU_intf.sym 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl {E:/MKS/Lab_3_Example 2/ALU_intf.sym} 
+vhdtdtfi -lib work ALU.vhd -prj Lab_3_Example -o ALU_intf.spl -module ALU_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ALU_intf.spl {E:/MKS/Lab_3_Example 6/ALU_intf.sym} 

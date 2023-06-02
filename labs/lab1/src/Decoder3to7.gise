@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Decoder3to7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="My3to7Decoder.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="My3to7Decoder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_IBS" xil_pn:name="My3to7Decoder.ibs"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="My3to7Decoder.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PIN2UCF_REPORT" xil_pn:name="My3to7Decoder.lck"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="My3to7Decoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="My3to7Decoder.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="My3to7Decoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="My3to7Decoder.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="My3to7Decoder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="My3to7Decoder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="My3to7Decoder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="My3to7Decoder.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My3to7Decoder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="My3to7Decoder.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_POWER_REPORT" xil_pn:name="My3to7Decoder.pwr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="My3to7Decoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="My3to7Decoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="My3to7Decoder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="My3to7Decoder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="My3to7Decoder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="My3to7Decoder.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="My3to7Decoder.vf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="My3to7Decoder.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="My3to7Decoder.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My3to7Decoder_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="My3to7Decoder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="My3to7Decoder_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="My3to7Decoder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="My3to7Decoder_isim_beh.wdb"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="My3to7Decoder_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="My3to7Decoder_isim_translate.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="My3to7Decoder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="My3to7Decoder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="My3to7Decoder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="My3to7Decoder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My3to7Decoder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My3to7Decoder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="My3to7Decoder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="My3to7Decoder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My3to7Decoder_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="My3to7Decoder_preroute.twr" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="My3to7Decoder_preroute.twx" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My3to7Decoder_stx_translate.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="My3to7Decoder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="My3to7Decoder_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="My3to7Decoder_translate.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="My3to7Decoder_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="My3to7Decoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xpwr.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="glbl_stx_map.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="my3to7decoder.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_BIN" xil_pn:name="my3to7decoder.bin"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="my3to7decoder.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="my3to7decoder.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/map/My3to7Decoder_map.nlf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/map/My3to7Decoder_map.v"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/map/my3to7decoder_map.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/My3to7Decoder_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/My3to7Decoder_timesim.v"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/my3to7decoder_timesim.sdf"/>
+    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/My3to7Decoder_synthesis.nlf"/>
+    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/My3to7Decoder_synthesis.v"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/My3to7Decoder_translate.nlf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/translate/My3to7Decoder_translate.v"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1679938047" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="6722788503651541364" xil_pn:start_ts="1679938047">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319281" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1679319281">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319281" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1679319281">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319281" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1747512226914288935" xil_pn:start_ts="1679319281">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679939744" xil_pn:in_ck="-2099075600853217483" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2677849536608881055" xil_pn:start_ts="1679939740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My3to7Decoder.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319286" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8242007842038032077" xil_pn:start_ts="1679319286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679939744" xil_pn:in_ck="-1740585085514602093" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1679939744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="My3to7Decoder.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679939751" xil_pn:in_ck="-1740585085514602093" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6420641507869069034" xil_pn:start_ts="1679939744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder_beh.prj"/>
+      <outfile xil_pn:name="My3to7Decoder_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1679939752" xil_pn:in_ck="-551784345401713256" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4064645471061238919" xil_pn:start_ts="1679939751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319392" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1679319392">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938362" xil_pn:in_ck="-2099075600853217483" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2878660478753399041" xil_pn:start_ts="1679938358">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319396" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8242007842038032077" xil_pn:start_ts="1679319396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319396" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1679319396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319396" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1747512226914288935" xil_pn:start_ts="1679319396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319396" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1430049303116325842" xil_pn:start_ts="1679319396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1679319396" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3431382522239993641" xil_pn:start_ts="1679319396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938382" xil_pn:in_ck="-1740585085514602093" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="507380811630637123" xil_pn:start_ts="1679938362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.jhd"/>
+      <outfile xil_pn:name="My3to7Decoder.lso"/>
+      <outfile xil_pn:name="My3to7Decoder.ngc"/>
+      <outfile xil_pn:name="My3to7Decoder.ngr"/>
+      <outfile xil_pn:name="My3to7Decoder.prj"/>
+      <outfile xil_pn:name="My3to7Decoder.stx"/>
+      <outfile xil_pn:name="My3to7Decoder.syr"/>
+      <outfile xil_pn:name="My3to7Decoder.xst"/>
+      <outfile xil_pn:name="My3to7Decoder_beh.prj"/>
+      <outfile xil_pn:name="My3to7Decoder_stx_translate.prj"/>
+      <outfile xil_pn:name="My3to7Decoder_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937751" xil_pn:in_ck="429140357916258077" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2864158364161348181" xil_pn:start_ts="1679937751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938396" xil_pn:in_ck="8082786954318702380" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2917762756974894406" xil_pn:start_ts="1679938382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.bld"/>
+      <outfile xil_pn:name="My3to7Decoder.ngd"/>
+      <outfile xil_pn:name="My3to7Decoder_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938671" xil_pn:in_ck="8082786954318702381" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6301418164239633844" xil_pn:start_ts="1679938661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="My3to7Decoder.pcf"/>
+      <outfile xil_pn:name="My3to7Decoder_map.map"/>
+      <outfile xil_pn:name="My3to7Decoder_map.mrp"/>
+      <outfile xil_pn:name="My3to7Decoder_map.ncd"/>
+      <outfile xil_pn:name="My3to7Decoder_map.ngm"/>
+      <outfile xil_pn:name="My3to7Decoder_map.xrpt"/>
+      <outfile xil_pn:name="My3to7Decoder_summary.xml"/>
+      <outfile xil_pn:name="My3to7Decoder_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938725" xil_pn:in_ck="-8622343312504617786" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-7315222464170770773" xil_pn:start_ts="1679938710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="My3to7Decoder.ncd"/>
+      <outfile xil_pn:name="My3to7Decoder.pad"/>
+      <outfile xil_pn:name="My3to7Decoder.par"/>
+      <outfile xil_pn:name="My3to7Decoder.ptwx"/>
+      <outfile xil_pn:name="My3to7Decoder.unroutes"/>
+      <outfile xil_pn:name="My3to7Decoder.xpi"/>
+      <outfile xil_pn:name="My3to7Decoder_pad.csv"/>
+      <outfile xil_pn:name="My3to7Decoder_pad.txt"/>
+      <outfile xil_pn:name="My3to7Decoder_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938011" xil_pn:in_ck="-2099075600853222932" xil_pn:name="TRANEXT_bitFile_spartan3a" xil_pn:prop_ck="1406129783654645690" xil_pn:start_ts="1679937998">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="my3to7decoder.bgn"/>
+      <outfile xil_pn:name="my3to7decoder.bin"/>
+      <outfile xil_pn:name="my3to7decoder.bit"/>
+      <outfile xil_pn:name="my3to7decoder.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937575" xil_pn:in_ck="4666612395819855862" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="-2652601144930058557" xil_pn:start_ts="1679937573">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937734" xil_pn:in_ck="8082786954318702249" xil_pn:name="TRAN_backAnnoPinLocations" xil_pn:prop_ck="429140357916258077" xil_pn:start_ts="1679937728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.lck"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937959" xil_pn:in_ck="-2099075600853222932" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="-6459323017417986719" xil_pn:start_ts="1679937949">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/My3to7Decoder_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/My3to7Decoder_timesim.v"/>
+      <outfile xil_pn:name="netgen/par/my3to7decoder_timesim.sdf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937973" xil_pn:in_ck="-2099075600853222932" xil_pn:name="TRAN_createIBISModel" xil_pn:prop_ck="-6568802375816187234" xil_pn:start_ts="1679937965">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.ibs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937498" xil_pn:in_ck="-2099075600853222932" xil_pn:name="TRAN_genPowerData" xil_pn:prop_ck="5490861046259921698" xil_pn:start_ts="1679937489">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.pwr"/>
+      <outfile xil_pn:name="_xmsgs/xpwr.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937915" xil_pn:in_ck="8082786954318702249" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1679937907">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder.twr"/>
+      <outfile xil_pn:name="My3to7Decoder.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938705" xil_pn:in_ck="-5063122485180841591" xil_pn:name="TRAN_postMapSimModel" xil_pn:prop_ck="-5842311859414292281" xil_pn:start_ts="1679938695">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/map/My3to7Decoder_map.nlf"/>
+      <outfile xil_pn:name="netgen/map/My3to7Decoder_map.v"/>
+      <outfile xil_pn:name="netgen/map/my3to7decoder_map.sdf"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938690" xil_pn:in_ck="-8622343312504617786" xil_pn:name="TRAN_preRouteTrce" xil_pn:prop_ck="722859607460791355" xil_pn:start_ts="1679938682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="My3to7Decoder_preroute.twr"/>
+      <outfile xil_pn:name="My3to7Decoder_preroute.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938402" xil_pn:in_ck="-2099075600853222800" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-6986196647769586928" xil_pn:start_ts="1679938396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/translate/My3to7Decoder_translate.nlf"/>
+      <outfile xil_pn:name="netgen/translate/My3to7Decoder_translate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938402" xil_pn:in_ck="8604766881987976039" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1679938402">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen/translate/My3to7Decoder_translate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938412" xil_pn:in_ck="8604766881987976039" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="-2090539621093930954" xil_pn:start_ts="1679938402">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder_isim_translate.exe"/>
+      <outfile xil_pn:name="My3to7Decoder_translate.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1679938413" xil_pn:in_ck="2775766151489484631" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="7257529658321802878" xil_pn:start_ts="1679938412">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="My3to7Decoder_isim_translate.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1679937858" xil_pn:in_ck="-2099075600853222801" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-4778686412082301226" xil_pn:start_ts="1679937852">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/My3to7Decoder_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/My3to7Decoder_synthesis.v"/>
+    </transform>
+  </transforms>
+
+</generated_project>

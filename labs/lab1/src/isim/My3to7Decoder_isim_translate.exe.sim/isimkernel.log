@@ -1,0 +1,29 @@
+Command line:
+   My3to7Decoder_isim_translate.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49704
+
+Mon Mar 27 20:33:38 2023
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 4992.86 Meg
+
+ Total Signals          : 137
+ Total Nets             : 54
+ Total Signal Drivers   : 53
+ Total Blocks           : 43
+ Total Primitive Blocks : 42
+ Total Processes        : 47
+ Total Traceable Variables  : 87
+ Total Scalar Nets and Variables : 3758
+Total Line Count : 22
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5307.43 Meg
+
+Mon Mar 27 20:34:36 2023
+

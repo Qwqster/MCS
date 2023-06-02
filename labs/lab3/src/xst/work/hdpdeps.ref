@@ -1,0 +1,81 @@
+V3 57
+FL D:/Lab_3_Example/ACC.vhd 2023/04/27.16:09:55 P.20131013
+FL D:/Lab_3_Example/ALU.vhd 2023/05/09.17:16:53 P.20131013
+FL D:/Lab_3_Example/CU.vhd 2023/05/01.16:54:57 P.20131013
+FL D:/Lab_3_Example/MUX.vhd 2023/04/27.16:10:10 P.20131013
+FL D:/Lab_3_Example/RAM.vhd 2023/04/27.17:11:31 P.20131013
+FL D:/Lab_3_Example/SEGDEC.vhd 2023/05/09.17:09:07 P.20131013
+FL D:/Lab_3_Example/TopLevel.vhf 2023/05/09.17:07:02 P.20131013
+FL "E:/MKS/Lab_3_Example 2/ACC.vhd" 2023/04/27.16:09:55 P.20131013
+FL "E:/MKS/Lab_3_Example 2/ALU.vhd" 2023/05/29.20:23:46 P.20131013
+FL "E:/MKS/Lab_3_Example 2/CU.vhd" 2023/05/29.20:17:51 P.20131013
+FL "E:/MKS/Lab_3_Example 2/MUX.vhd" 2023/04/27.16:10:10 P.20131013
+FL "E:/MKS/Lab_3_Example 2/RAM.vhd" 2023/04/27.17:11:31 P.20131013
+FL "E:/MKS/Lab_3_Example 2/SEGDEC.vhd" 2023/05/09.17:09:07 P.20131013
+FL "E:/MKS/Lab_3_Example 2/TopLevel.vhf" 2023/05/29.21:18:40 P.20131013
+FL "E:/MKS/Lab_3_Example 6/ACC.vhd" 2023/04/27.16:09:55 P.20131013
+EN work/ACC_intf 1685434815 FL "E:/MKS/Lab_3_Example 6/ACC.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ACC_intf/ACC_arch 1685434816 \
+      FL "E:/MKS/Lab_3_Example 6/ACC.vhd" EN work/ACC_intf 1685434815
+FL "E:/MKS/Lab_3_Example 6/ALU.vhd" 2023/05/30.11:14:03 P.20131013
+EN work/ALU_intf 1685434819 FL "E:/MKS/Lab_3_Example 6/ALU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_intf/ALU_arch 1685434820 \
+      FL "E:/MKS/Lab_3_Example 6/ALU.vhd" EN work/ALU_intf 1685434819
+FL "E:/MKS/Lab_3_Example 6/CU.vhd" 2023/05/30.11:19:08 P.20131013
+EN work/CU_intf 1685434821 FL "E:/MKS/Lab_3_Example 6/CU.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CU_intf/CU_arch 1685434822 \
+      FL "E:/MKS/Lab_3_Example 6/CU.vhd" EN work/CU_intf 1685434821
+FL "E:/MKS/Lab_3_Example 6/MUX.vhd" 2023/04/27.16:10:10 P.20131013
+EN work/MUX_intf 1685434813 FL "E:/MKS/Lab_3_Example 6/MUX.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MUX_intf/MUX_arch 1685434814 \
+      FL "E:/MKS/Lab_3_Example 6/MUX.vhd" EN work/MUX_intf 1685434813
+FL "E:/MKS/Lab_3_Example 6/RAM.vhd" 2023/04/27.17:11:31 P.20131013
+EN work/RAM_intf 1685434817 FL "E:/MKS/Lab_3_Example 6/RAM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RAM_intf/RAM_arch 1685434818 \
+      FL "E:/MKS/Lab_3_Example 6/RAM.vhd" EN work/RAM_intf 1685434817
+FL "E:/MKS/Lab_3_Example 6/SEGDEC.vhd" 2023/05/09.17:09:07 P.20131013
+EN work/SEGDEC_intf 1685434811 FL "E:/MKS/Lab_3_Example 6/SEGDEC.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SEGDEC_intf/SEGDEC_arch 1685434812 \
+      FL "E:/MKS/Lab_3_Example 6/SEGDEC.vhd" EN work/SEGDEC_intf 1685434811
+FL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" 2023/05/30.11:20:03 P.20131013
+EN work/CB16CE_HXILINX_TopLevel 1685434823 \
+      FL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CB16CE_HXILINX_TopLevel/Behavioral 1685434824 \
+      FL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" EN work/CB16CE_HXILINX_TopLevel 1685434823
+EN work/TopLevel 1685434825 \
+      FL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TopLevel/BEHAVIORAL 1685434826 \
+      FL "E:/MKS/Lab_3_Example 6/TopLevel.vhf" EN work/TopLevel 1685434825 \
+      CP SEGDEC_intf CP MUX_intf CP ACC_intf CP RAM_intf CP CB16CE_HXILINX_TopLevel \
+      CP ALU_intf CP CU_intf
+FL E:/MKS/Lab_3_Example/ACC.vhd 2023/04/27.16:09:55 P.20131013
+FL E:/MKS/Lab_3_Example/ALU.vhd 2023/04/27.16:24:24 P.20131013
+FL E:/MKS/Lab_3_Example/calc.vhd 2020/04/10.16:14:00 P.20131013
+EN work/calc_intf 1682502977 FL E:/MKS/Lab_3_Example/calc.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/calc_intf/calc_arch 1682502978 \
+      FL E:/MKS/Lab_3_Example/calc.vhd EN work/calc_intf 1682502977
+FL E:/MKS/Lab_3_Example/CU.vhd 2023/04/27.17:01:49 P.20131013
+FL E:/MKS/Lab_3_Example/MUX.vhd 2023/04/27.16:10:10 P.20131013
+FL E:/MKS/Lab_3_Example/RAM.vhd 2023/04/27.17:11:31 P.20131013
+FL E:/MKS/Lab_3_Example/SEGDEC.vhd 2023/04/27.17:28:11 P.20131013
+FL E:/MKS/Lab_3_Example/TopLevel.vhf 2023/04/27.18:13:25 P.20131013
+EN work/INV8_HXILINX_TopLevel 1682608426 FL E:/MKS/Lab_3_Example/TopLevel.vhf \
+      PB ieee/std_logic_1164 1381692176
+AR work/INV8_HXILINX_TopLevel/INV8_HXILINX_TopLevel_V 1682608427 \
+      FL E:/MKS/Lab_3_Example/TopLevel.vhf EN work/INV8_HXILINX_TopLevel 1682608426

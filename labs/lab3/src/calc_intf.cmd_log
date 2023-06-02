@@ -1,0 +1,2 @@
+vhdtdtfi -lib work calc.vhd -prj Lab_3_Example -o calc_intf.spl -module calc_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a calc_intf.spl E:/MKS/Lab_3_Example1/calc_intf.sym 

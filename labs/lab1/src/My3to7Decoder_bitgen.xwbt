@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\MKS\Decoder3to7\My3to7Decoder.ncd
+OUTFILE=D:\MKS\Decoder3to7\My3to7Decoder.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=D:\MKS\Decoder3to7
+LICENSE=WebPack
+USER_INFO=211628586_0_0_017

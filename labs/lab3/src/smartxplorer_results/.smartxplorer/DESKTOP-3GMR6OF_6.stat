@@ -1,0 +1,15 @@
+START:Strategy:7:MapUseIOReg
+REMOTE_PID:5792
+RUNNING:5792:18008:MapUseIOReg:map:TopLevel.ngd: -timing -ol high -pr b  -p xc3s50a-tq144-5 -o TopLevel_map.ncd  E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun7:bslTopLevel.pcf
+STATUS:MapUseIOReg:map:Score:None:lut:None:slice_reg:51 (3%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.30 secs 
+STATUS:MapUseIOReg:map:Score:None:lut:179 (12%):slice_reg:51 (3%):slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.30 secs 
+STATUS:MapUseIOReg:map:Score:None:lut:179 (12%):slice_reg:51 (3%):slice:121 (17%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.30 secs 
+STATUS:MapUseIOReg:map:Score:None:lut:194 (13%):slice_reg:51 (3%):slice:121 (17%):bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:10.59 secs 
+DONE:map:0
+RUNNING:5792:16180:MapUseIOReg:par:TopLevel_map.ncd: -ol high  -w TopLevel.ncd  E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun7:bslTopLevel.pcf
+STATUS:MapUseIOReg:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:20.64 secs 
+STATUS:MapUseIOReg:par:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:79.910ns:Time:20.64 secs 
+DONE:par:0
+RUNNING:5792:19148:MapUseIOReg:trce:E:\MKS\Lab_3_Example\smartxplorer_results\run7\TopLevel.ncd:E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun7:bslTopLevel.pcf -xml E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun7:bslTopLevel.twx -v 3 -s 5 -n 3 -fastpaths   -ucf Constraints.ucf -o E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun7:bslTopLevel.twr
+STATUS:MapUseIOReg:trce:Score:0:lut:None:slice_reg:None:slice:None:bram:None:dsp48:None:mult18x18:None:Power:None:wnsInfo:None:Time:25.69 secs 
+DONE:trce:0

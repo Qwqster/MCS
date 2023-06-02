@@ -1,0 +1,44 @@
+strategySpecString = ':oc:sqmap:sq:cl:sp:sq:sp:dscm:sparea:sp:dst:sp2:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:spE:clcl:clbslMKS:clbslLab_3_Example:sp:dsp:spxc3s50a:dstq144:ds5:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp5:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spTopLevel.twx:sp:dsucf:spConstraints.ucf:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp4:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dst:sp2:sq:cm:sp:sqname:sq:cl:sp:sqParHighEffort2:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sqE:cl:bsl:bslMKS:bsl:bslLab_3_Example:sq:cc'
+Xilinx Environment Variables:
+
+{'XILINXD_LICENSE_FILE': 'D:\\Xilinx_ISE_DS_Win_14.7_1015_1\\Xilinx.lic'
+'XILINX_PLANAHEAD': 'D:\\Xilinx\\14.7\\ISE_DS\\PlanAhead'
+'XILINX_DSP': 'D:\\Xilinx\\14.7\\ISE_DS\\ISE'
+'XILINX_EDK': 'D:\\Xilinx\\14.7\\ISE_DS\\EDK'
+'XILINX': 'D:\\Xilinx\\14.7\\ISE_DS\\ISE\\'
+'PATH': 'D:\\Xilinx\\14.7\\ISE_DS\\ISE\\\\lib\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\lib\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\ISE\\..\\..\\..\\DocNav;D:\\Xilinx\\14.7\\ISE_DS\\PlanAhead\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\lib\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\nt\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\powerpc-eabi\\nt\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnuwin\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\arm\\nt\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\linux_toolchain\\nt64_be\\bin;D:\\Xilinx\\14.7\\ISE_DS\\EDK\\gnu\\microblaze\\linux_toolchain\\nt64_le\\bin;D:\\Xilinx\\14.7\\ISE_DS\\common\\bin\\nt64;D:\\Xilinx\\14.7\\ISE_DS\\common\\lib\\nt64;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\7-Zip;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps'}
+envDict = {}
+DESKTOP-3GMR6OF_3.stat:E:\MKS\Lab_3_Example\smartxplorer_results\.smartxplorer\.sx.keepAlive.DESKTOP-3GMR6OF_3
+INFO: total number of threads running this host None
+...searching for file: parhigheffort2.xds
+Creating XDS file ... parhigheffort2.xds
+###################################
+
+      <property name = "Map:Optimization Strategy (Cover Mode)"
+               value = "Area" />
+      <property name = "Map:Starting Placer Cost Table (1-100)"
+               value = "2" />
+      <property name = "Place &amp; Route:Place &amp; Route Effort Level (Overall)"
+               value = "High" />
+      <property name = "Place &amp; Route:Starting Placer Cost Table (1-100)"
+               value = "2" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Number of Paths in Error/Verbose Report"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Type"
+               value = "Verbose Report" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Change Device Speed To"
+               value = "-5" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Paths by Endpoint"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Fastest Path(s) in Each Constraint"
+               value = "true" />
+###################################
+launching map with options  -cm area -t 2 -p xc3s50a-tq144-5 -o TopLevel_map.ncd  E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun4:bslTopLevel.pcf...
+runTask: map TopLevel.ngd -cm area -t 2 -p xc3s50a-tq144-5 -o TopLevel_map.ncd E:\MKS\Lab_3_Example\smartxplorer_results\run4\TopLevel.pcf
+args = ['map', 'TopLevel.ngd', '-cm', 'area', '-t', '2', '-p', 'xc3s50a-tq144-5', '-o', 'TopLevel_map.ncd', 'E:\\MKS\\Lab_3_Example\\smartxplorer_results\\run4\\TopLevel.pcf']
+launching par with options  -ol high -t 2 -w TopLevel.ncd  E:cl:bslMKS:bslLab_3_Example:bslsmartxplorer_results:bslrun4:bslTopLevel.pcf...
+runTask: par TopLevel_map.ncd -ol high -t 2 -w TopLevel.ncd E:\MKS\Lab_3_Example\smartxplorer_results\run4\TopLevel.pcf
+args = ['par', 'TopLevel_map.ncd', '-ol', 'high', '-t', '2', '-w', 'TopLevel.ncd', 'E:\\MKS\\Lab_3_Example\\smartxplorer_results\\run4\\TopLevel.pcf']
+launching trce...
+runTask: trce E:\MKS\Lab_3_Example\smartxplorer_results\run4\TopLevel.ncd E:\MKS\Lab_3_Example\smartxplorer_results\run4\TopLevel.pcf -xml E:\MKS\Lab_3_Example\smartxplorer_results\run4\TopLevel.twx -v 3 -s 5 -n 3 -fastpaths -ucf Constraints.ucf -o E:\MKS\Lab_3_Example\smartxplorer_results\run4\TopLevel.twr
+args = ['trce', 'E:\\MKS\\Lab_3_Example\\smartxplorer_results\\run4\\TopLevel.ncd', 'E:\\MKS\\Lab_3_Example\\smartxplorer_results\\run4\\TopLevel.pcf', '-xml', 'E:\\MKS\\Lab_3_Example\\smartxplorer_results\\run4\\TopLevel.twx', '-v', '3', '-s', '5', '-n', '3', '-fastpaths', '-ucf', 'Constraints.ucf', '-o', 'E:\\MKS\\Lab_3_Example\\smartxplorer_results\\run4\\TopLevel.twr']

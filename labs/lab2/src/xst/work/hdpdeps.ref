@@ -1,0 +1,37 @@
+V3 23
+FL D:/Study/X.Pro/Lab2/Lab2/OutputLogic.vhd 2023/04/08.14:59:59 P.20131013
+EN work/out_logic_intf 1681063884 FL D:/Study/X.Pro/Lab2/Lab2/OutputLogic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/out_logic_intf/out_logic_arch 1681063885 \
+      FL D:/Study/X.Pro/Lab2/Lab2/OutputLogic.vhd EN work/out_logic_intf 1681063884
+FL D:/Study/X.Pro/Lab2/Lab2/Schema.vhf 2023/04/09.20:53:59 P.20131013
+EN work/Schema 1681063892 FL D:/Study/X.Pro/Lab2/Lab2/Schema.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Schema/BEHAVIORAL 1681063893 \
+      FL D:/Study/X.Pro/Lab2/Lab2/Schema.vhf EN work/Schema 1681063892 CP FD \
+      CP transition_logic_intf CP out_logic_intf
+FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf 2023/04/09.21:11:19 P.20131013
+EN work/CC16RE_HXILINX_TopLevel 1681063886 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CC16RE_HXILINX_TopLevel/CC16RE_HXILINX_TopLevel_V 1681063887 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf EN work/CC16RE_HXILINX_TopLevel 1681063886
+EN work/Schema_MUSER_TopLevel 1681063888 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Schema_MUSER_TopLevel/BEHAVIORAL 1681063889 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf EN work/Schema_MUSER_TopLevel 1681063888 \
+      CP FD CP transition_logic_intf CP out_logic_intf
+EN work/TopLevel 1681063890 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/TopLevel/BEHAVIORAL 1681063891 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TopLevel.vhf EN work/TopLevel 1681063890 CP FD \
+      CP MUXCY CP Schema_MUSER_TopLevel CP CC16RE_HXILINX_TopLevel
+FL D:/Study/X.Pro/Lab2/Lab2/TransitionLogic.vhd 2023/04/08.14:04:58 P.20131013
+EN work/transition_logic_intf 1681063882 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TransitionLogic.vhd PB ieee/std_logic_1164 1381692176
+AR work/transition_logic_intf/transition_logic_arch 1681063883 \
+      FL D:/Study/X.Pro/Lab2/Lab2/TransitionLogic.vhd \
+      EN work/transition_logic_intf 1681063882

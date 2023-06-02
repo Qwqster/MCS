@@ -1,0 +1,8 @@
+[Inputs]
+CLOCK
+ACC_RST
+ACC_WR
+=ACC_DATA_IN_BUS[7:0]=
+[Outputs]
+=ACC_DATA_OUT_BUS[7:0]=
+[BiDir]

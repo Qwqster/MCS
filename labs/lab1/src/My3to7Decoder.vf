@@ -1,0 +1,74 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : My3to7Decoder.vf
+// /___/   /\     Timestamp : 03/27/2023 20:55:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3a -verilog D:/MKS/Decoder3to7/My3to7Decoder.vf -w D:/MKS/Decoder3to7/My3to7Decoder.sch
+//Design Name: My3to7Decoder
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module My3to7Decoder(IN_0, 
+                     IN_1, 
+                     IN_2, 
+                     OUT_0, 
+                     OUT_1, 
+                     OUT_2, 
+                     OUT_3, 
+                     OUT_4, 
+                     OUT_5, 
+                     OUT_7);
+
+    input IN_0;
+    input IN_1;
+    input IN_2;
+   output OUT_0;
+   output OUT_1;
+   output OUT_2;
+   output OUT_3;
+   output OUT_4;
+   output OUT_5;
+   output OUT_7;
+   
+   
+   AND3B3  XLXI_10 (.I0(IN_0), 
+                   .I1(IN_1), 
+                   .I2(IN_2), 
+                   .O(OUT_0));
+   AND3B2  XLXI_11 (.I0(IN_2), 
+                   .I1(IN_1), 
+                   .I2(IN_0), 
+                   .O(OUT_1));
+   AND3  XLXI_12 (.I0(IN_2), 
+                 .I1(IN_1), 
+                 .I2(IN_0), 
+                 .O(OUT_7));
+   AND3B2  XLXI_13 (.I0(IN_0), 
+                   .I1(IN_2), 
+                   .I2(IN_1), 
+                   .O(OUT_2));
+   AND3B1  XLXI_14 (.I0(IN_2), 
+                   .I1(IN_1), 
+                   .I2(IN_0), 
+                   .O(OUT_3));
+   AND3B2  XLXI_15 (.I0(IN_0), 
+                   .I1(IN_1), 
+                   .I2(IN_2), 
+                   .O(OUT_4));
+   AND3B1  XLXI_16 (.I0(IN_1), 
+                   .I1(IN_0), 
+                   .I2(IN_2), 
+                   .O(OUT_5));
+endmodule

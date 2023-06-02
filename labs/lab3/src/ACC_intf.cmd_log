@@ -1,0 +1,6 @@
+vhdtdtfi -lib work ACC.vhd -prj Lab_3_Example -o ACC_intf.spl -module ACC_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ACC_intf.spl E:/MKS/Lab_3_Example/ACC_intf.sym 
+vhdtdtfi -lib work ACC.vhd -prj Lab_3_Example -o ACC_intf.spl -module ACC_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ACC_intf.spl E:/MKS/Lab_3_Example/ACC_intf.sym 
+vhdtdtfi -lib work ACC.vhd -prj Lab_3_Example -o ACC_intf.spl -module ACC_intf -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a ACC_intf.spl E:/MKS/Lab_3_Example/ACC_intf.sym 
